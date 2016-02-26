@@ -1,0 +1,19 @@
+#include "ros/ros.h"
+#include "std_msgs/Int32.h"
+
+class myClass {
+public:
+    int data; 
+    
+
+    myClass(){}
+    myClass(float d){
+	data=d;
+	}
+    void incData(){
+	data++;
+	}
+    void decData(){
+	data--;
+	}
+};

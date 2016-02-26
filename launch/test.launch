@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ges" type="fakePub" name="fakePub" output="screen">
+   </node>
+	<node pkg="ges" type="featureNode" name="featureNode" output="screen">
+   </node>
+</launch>
